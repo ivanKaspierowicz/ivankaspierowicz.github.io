@@ -21,7 +21,7 @@
 
 						<!-- Logo -->
 							<a href="index.html" class="logo">
-								<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">My portfolio</span>
+								<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Mi portfolio</span>
 							</a>
 
 						<!-- Nav -->
@@ -53,9 +53,9 @@
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Acoustical parameter calculator</h1>
+							<h1>Software de parámetros acústicos</h1>
 							<h3>1Q - 2021</h3>
-									<p><span class="image left"><img src="images/pic04_1.jpg" alt="" /></span><u><i>Abstract</i></u>: This document describes the room impulse response processing of software developed for
+									<!--<p><span class="image left"><img src="images/pic04_1.jpg" alt="" /></span><u><i>Abstract</i></u>: This document describes the room impulse response processing of software developed for
 										calculating the acoustical parameters EDT, T20, T30, C50, C80, IACC, and IACC-early, according
 										to ISO-3382. In addition, transition time (Tt) is calculated, allowing to calculate EDTt, CTt, and
 										IACCt, and giving an approach of early sound field behavior. Calculations can be made for octave
@@ -73,9 +73,29 @@
 										and C80, especially at low frequencies.
 										In our particular case, all the tables and figures show that for 250 Hz band is when the results
 										are more distant from the EASERA, AARAE, and Aurora results. This is an indication to debug
-										the code and find the cause of this problem to present more consistent results.</p><br>
+										the code and find the cause of this problem to present more consistent results.</p><br>-->
+									<p><span class="image left"><img src="images/pic04_1.jpg" alt="" /></span><u><i>Resumen</i></u>: Este documento describe el desarrollo de una aplicación capaz de
+										procesar respuestas al impulso para obtener parámetros acústicos tales como el EDT, T20, T30,
+										C50, C80, IACC y IACC-early de acuerdo a la normativa ISO-3382. Además, calcula el tiempo de 
+										transición (tt), de esta forma se pueden obtener los parámetros EDTt, CTt e IACCt y dar un panorama
+										del comportamiento del campo sonoro temprano. Los resultados se pueden calcular tanto para bandas 
+										de octava como en tercio de octava, según especifica la norma IEC-61620.
+										También se brinda la opción de poder seleccionar varias respuestas a la vez, permitiendo al usuario analizar resultados 
+										promedio e individuales. La app desarrollada en Python es comparada con otros softwares disponibles 
+										en el mercado (EASERA, Aurora y AARAE) presentando resultados coherentes y consistentes.
+									</p>
+									<p><span class="image right"><img src="images/pic04_2.png" alt="" /></span> La sección 3.2 evalúa los métodos para la obtención del tiempo de truncamiento.
+										La diferencia entre ellos es cercana al 0%, por lo tanto, la elección del mismo yace en el tiempo de 
+										procesamiento de cada algoritmo. El ejemplo que se observa a la derecha muestra el parámetro T30 
+										para una respuesta al impulso sintética. Esta misma fue creada previamente con 1 segundo de tiempo de reverberación.
+									</p><br><br>
+									<p><span class="image left"><img src="images/pic04_5.png" alt="" /></span> La sección 3.1 demuestra como la app desarrollada provee resultados buenos y coherentes
+										en relación a aplicaciones disponibles en el mercado para una misma respuesta al impulso sintética. 
+										Los parámetros energéticos muestran que no hay una manera estandarizada de calcularlos y es por esto que se observa la mayor desviación de resultados entre
+										aplicaciones, sobre todo en el parámetro C80 en bajas frecuencias.
+									</p><br>	
 									<ul class="actions">
-										</li><li><a href="documents/04_APC.pdf" class="button primary icon solid fa-download">View full document</a></li>
+										</li><li><a href="documents/04_APC.pdf" class="button primary icon solid fa-download">ver documento</a></li>
 									</ul>
 						</div>
 					</div>
