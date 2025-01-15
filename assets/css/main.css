@@ -72,8 +72,6 @@ input, select, textarea {
 	appearance: none;
 }
 
-/* Basic */
-
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -3351,4 +3349,4 @@ input, select, textarea {
 				padding: 0 1.25em;
 			}
 
-		}
+		}		
